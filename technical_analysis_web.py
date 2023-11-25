@@ -2,6 +2,8 @@ from ctypes.wintypes import SIZE
 import streamlit as stl
 import technical_analysis_library as tal
 
+stl.set_page_config(layout="wide")
+
 start_date, end_date = None, None 
 symbols = []
 # session_state: dictionary object stores key-value pair  
