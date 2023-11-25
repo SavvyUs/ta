@@ -69,7 +69,7 @@ with row_input4[0] :
                     on_click=generate_interactive_linear_chart,
                     key="interactive_linear")
 
-row_input5 = stl.column((1))
+row_input5 = stl.columns((1))
 with row_input4[0] : 
     stl.area_chart()
 
