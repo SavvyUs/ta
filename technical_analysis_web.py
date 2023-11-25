@@ -58,7 +58,7 @@ with row_input2[0] :
 
 row_input3 = stl.columns((1,1))
 with row_input3[0] :
-    stl.write("<b>Applicable Technical Analysis</b>")
+    stl.write("<b>Applicable Technical Analysis</b>", unsafe_allow_html=True)
 
 row_input4 = stl.columns((1,1,1,1))
 with row_input4[0] : 
