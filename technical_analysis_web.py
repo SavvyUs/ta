@@ -2,6 +2,8 @@ from ctypes.wintypes import SIZE
 import streamlit as stl
 import technical_analysis_library as tal
 
+start_date, end_date = None, None 
+symbols = []
 # session_state: dictionary object stores key-value pair  
 chart_data = None 
 def get_start_date() -> str: 
