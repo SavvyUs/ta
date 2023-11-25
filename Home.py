@@ -40,8 +40,8 @@ stl.checkbox("Are you living in North America? ")
 
 row_input1 = stl.columns((1))
 with row_input1[0] : 
-    stl.text_input(placeholder="Enter a list of tickers...", 
-               label="Enter Tickers/Symbols",
+    stl.text_input(placeholder="e.g. MSFT AAPL GE", 
+               label="Enter Tickers/Symbols ",
                on_change=get_symbols,
                key='symbols')
 
