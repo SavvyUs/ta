@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+env
+env1
+.idea
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
